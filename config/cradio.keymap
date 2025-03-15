@@ -49,7 +49,7 @@
             >;
         };
 
-        navigation_left {
+        right_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT   │  1       │  UP      │  3       │          │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │&kp HOME   &kp END
@@ -59,24 +59,24 @@
             &kp DEL    &kp LEFT  &kp DOWN   &kp RIGHT  &kp PG_DN        &trans     &trans     &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
-        &caps_word  &kp C_VOL_DOWN &kp C_MUTE &kp C_VOL_UP &kp N0       &trans     &trans     &trans     &trans     &trans
+        &caps_word  &kp C_VOL_DOWN  &kp C_MUTE  &kp C_VOL_UP  &kp N0     &trans    &trans    &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &kp HOME    &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
 
-        navigation_right {
+        left_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT   │  1       │  UP      │  3       │          │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
              &trans     &trans     &trans     &trans     &trans      &kp KP_SLASH &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp COLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  DOWN    │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
-             &trans     &trans     &trans     &trans     &trans      &kp KP_MINUS &kp KP_N4 &kp KP_N5  &kp KP_N6   &kp KP_N0
+             &trans     &trans     &trans     &trans     &trans      &kp KP_MINUS  &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_N0
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
-             &trans     &trans     &trans     &trans     &trans      &kp KP_COMMA &kp KP_N1 &kp KP_N2   &kp KP_N3  &kp KP_DOT
+             &trans     &trans     &trans     &trans     &trans      &kp KP_COMMA  &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp KP_DOT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
